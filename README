@@ -1,0 +1,259 @@
+kiwi
+-------------------------------------------
+Kiwi consists of a set of classes and wrappers for PyGTK that were
+developed to provide a sort of framework for applications. Fully
+object-oriented, and roughly Smalltalk's MVC, Kiwi provides a simple,
+practical way to build forms, windows and widgets that transparently
+access and display your object data.
+
+Runtime requirements:
+  pygtk2-2.8.6-1
+  python-2.4.1-1
+
+Build requirements:
+  cygwin-1.5.19-4
+  cygport-0.1.92-1
+  python-2.4.1-1
+
+Canonical homepage:
+  http://www.async.com.br/projects/Kiwi/
+
+Canonical download:
+  http://www.async.com.br/projects/Kiwi/download/
+
+-------------------------------------------
+
+Build instructions:
+  unpack kiwi-1.9.8-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./kiwi-1.9.8-X.cygport all
+
+This will create:
+  /usr/src/kiwi-1.9.8-X-src.tar.bz2
+  /usr/src/kiwi-1.9.8-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+
+  /etc/kiwi/setup.py
+  /usr/bin/kiwi-i18n
+  /usr/bin/kiwi-ui-test
+  /usr/lib/python2.4/site-packages/gazpacho/widgets/kiwiwidgets.py
+  /usr/lib/python2.4/site-packages/gazpacho/widgets/kiwiwidgets.pyc
+  /usr/lib/python2.4/site-packages/gazpacho/widgets/kiwiwidgets.pyo
+  /usr/lib/python2.4/site-packages/kiwi/__init__.py
+  /usr/lib/python2.4/site-packages/kiwi/__init__.pyc
+  /usr/lib/python2.4/site-packages/kiwi/__init__.pyo
+  /usr/lib/python2.4/site-packages/kiwi/__installed__.py
+  /usr/lib/python2.4/site-packages/kiwi/__installed__.pyc
+  /usr/lib/python2.4/site-packages/kiwi/__installed__.pyo
+  /usr/lib/python2.4/site-packages/kiwi/__version__.py
+  /usr/lib/python2.4/site-packages/kiwi/__version__.pyc
+  /usr/lib/python2.4/site-packages/kiwi/__version__.pyo
+  /usr/lib/python2.4/site-packages/kiwi/accessor.py
+  /usr/lib/python2.4/site-packages/kiwi/accessor.pyc
+  /usr/lib/python2.4/site-packages/kiwi/accessor.pyo
+  /usr/lib/python2.4/site-packages/kiwi/argcheck.py
+  /usr/lib/python2.4/site-packages/kiwi/argcheck.pyc
+  /usr/lib/python2.4/site-packages/kiwi/argcheck.pyo
+  /usr/lib/python2.4/site-packages/kiwi/component.py
+  /usr/lib/python2.4/site-packages/kiwi/component.pyc
+  /usr/lib/python2.4/site-packages/kiwi/component.pyo
+  /usr/lib/python2.4/site-packages/kiwi/controllers.py
+  /usr/lib/python2.4/site-packages/kiwi/controllers.pyc
+  /usr/lib/python2.4/site-packages/kiwi/controllers.pyo
+  /usr/lib/python2.4/site-packages/kiwi/datatypes.py
+  /usr/lib/python2.4/site-packages/kiwi/datatypes.pyc
+  /usr/lib/python2.4/site-packages/kiwi/datatypes.pyo
+  /usr/lib/python2.4/site-packages/kiwi/decorators.py
+  /usr/lib/python2.4/site-packages/kiwi/decorators.pyc
+  /usr/lib/python2.4/site-packages/kiwi/decorators.pyo
+  /usr/lib/python2.4/site-packages/kiwi/desktopparser.py
+  /usr/lib/python2.4/site-packages/kiwi/desktopparser.pyc
+  /usr/lib/python2.4/site-packages/kiwi/desktopparser.pyo
+  /usr/lib/python2.4/site-packages/kiwi/dist.py
+  /usr/lib/python2.4/site-packages/kiwi/dist.pyc
+  /usr/lib/python2.4/site-packages/kiwi/dist.pyo
+  /usr/lib/python2.4/site-packages/kiwi/environ.py
+  /usr/lib/python2.4/site-packages/kiwi/environ.pyc
+  /usr/lib/python2.4/site-packages/kiwi/environ.pyo
+  /usr/lib/python2.4/site-packages/kiwi/i18n/__init__.py
+  /usr/lib/python2.4/site-packages/kiwi/i18n/__init__.pyc
+  /usr/lib/python2.4/site-packages/kiwi/i18n/__init__.pyo
+  /usr/lib/python2.4/site-packages/kiwi/i18n/i18n.py
+  /usr/lib/python2.4/site-packages/kiwi/i18n/i18n.pyc
+  /usr/lib/python2.4/site-packages/kiwi/i18n/i18n.pyo
+  /usr/lib/python2.4/site-packages/kiwi/i18n/msgfmt.py
+  /usr/lib/python2.4/site-packages/kiwi/i18n/msgfmt.pyc
+  /usr/lib/python2.4/site-packages/kiwi/i18n/msgfmt.pyo
+  /usr/lib/python2.4/site-packages/kiwi/interfaces.py
+  /usr/lib/python2.4/site-packages/kiwi/interfaces.pyc
+  /usr/lib/python2.4/site-packages/kiwi/interfaces.pyo
+  /usr/lib/python2.4/site-packages/kiwi/log.py
+  /usr/lib/python2.4/site-packages/kiwi/log.pyc
+  /usr/lib/python2.4/site-packages/kiwi/log.pyo
+  /usr/lib/python2.4/site-packages/kiwi/model.py
+  /usr/lib/python2.4/site-packages/kiwi/model.pyc
+  /usr/lib/python2.4/site-packages/kiwi/model.pyo
+  /usr/lib/python2.4/site-packages/kiwi/python.py
+  /usr/lib/python2.4/site-packages/kiwi/python.pyc
+  /usr/lib/python2.4/site-packages/kiwi/python.pyo
+  /usr/lib/python2.4/site-packages/kiwi/tasklet.py
+  /usr/lib/python2.4/site-packages/kiwi/tasklet.pyc
+  /usr/lib/python2.4/site-packages/kiwi/tasklet.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/__init__.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/__init__.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/__init__.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/comboboxentry.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/comboboxentry.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/comboboxentry.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/comboentry.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/comboentry.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/comboentry.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/combomixin.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/combomixin.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/combomixin.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/dateentry.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/dateentry.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/dateentry.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/delegates.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/delegates.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/delegates.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/dialogs.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/dialogs.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/dialogs.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/entry.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/entry.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/entry.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/gadgets.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/gadgets.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/gadgets.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/gazpacholoader.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/gazpacholoader.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/gazpacholoader.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/hyperlink.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/hyperlink.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/hyperlink.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/icon.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/icon.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/icon.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/libgladeloader.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/libgladeloader.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/libgladeloader.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/objectlist.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/objectlist.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/objectlist.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/proxy.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/proxy.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/proxy.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/proxywidget.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/proxywidget.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/proxywidget.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/selectablebox.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/selectablebox.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/selectablebox.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/__init__.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/__init__.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/__init__.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/common.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/common.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/common.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/listener.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/listener.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/listener.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/main.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/main.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/main.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/player.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/player.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/player.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/tooltip.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/tooltip.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/tooltip.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/views.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/views.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/views.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/__init__.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/__init__.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/__init__.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/checkbutton.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/checkbutton.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/checkbutton.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/colorbutton.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/colorbutton.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/colorbutton.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/combo.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/combo.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/combo.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/combobox.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/combobox.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/combobox.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/entry.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/entry.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/entry.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/filechooser.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/filechooser.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/filechooser.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/fontbutton.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/fontbutton.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/fontbutton.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/label.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/label.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/label.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/list.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/list.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/list.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/radiobutton.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/radiobutton.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/radiobutton.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/spinbutton.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/spinbutton.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/spinbutton.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/textview.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/textview.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/textview.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/wizard.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/wizard.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/wizard.pyo
+  /usr/lib/python2.4/site-packages/kiwi/utils.py
+  /usr/lib/python2.4/site-packages/kiwi/utils.pyc
+  /usr/lib/python2.4/site-packages/kiwi/utils.pyo
+  /usr/share/doc/Cygwin/kiwi-1.9.8.README
+  /usr/share/doc/kiwi-1.9.8/AUTHORS
+  /usr/share/doc/kiwi-1.9.8/COPYING
+  /usr/share/doc/kiwi-1.9.8/ChangeLog
+  /usr/share/doc/kiwi-1.9.8/NEWS
+  /usr/share/doc/kiwi-1.9.8/README
+  /usr/share/gazpacho/catalogs/kiwiwidgets.xml
+  /usr/share/gazpacho/resources/kiwiwidgets/hyperlink.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwicheckbutton.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwicombobox.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwicomboboxentry.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwicomboentry.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwidateentry.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwientry.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwilabel.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwiradiobutton.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwispinbutton.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwitextview.png
+  /usr/share/gazpacho/resources/kiwiwidgets/objectlist.png
+  /usr/share/kiwi/glade/PluggableWizard.glade
+  /usr/share/kiwi/pixmaps/validation-error-16.png
+  /usr/share/locale/pt_BR/LC_MESSAGES/kiwi.mo
+  /usr/share/locale/sv/LC_MESSAGES/kiwi.mo
+
+------------------
+
+Port Notes:
+
+----- version 1.9.8-1 -----
+Initial release for Cygwin.
+
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
