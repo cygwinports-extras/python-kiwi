@@ -8,38 +8,36 @@ access and display your object data.
 
 Runtime requirements:
   pygtk2-2.8.6-1
-  python-2.4.1-1
+  python-2.4.3-1
 
 Build requirements:
-  cygwin-1.5.19-4
-  cygport-0.1.92-1
-  python-2.4.1-1
+  cygwin-1.5.21-1
+  cygport-0.2.5-1
+  python-2.4.3-1
 
 Canonical homepage:
   http://www.async.com.br/projects/Kiwi/
 
 Canonical download:
-  http://www.async.com.br/projects/Kiwi/download/
+  ftp://ftp.gnome.org/pub/GNOME/sources/kiwi/
 
 -------------------------------------------
 
 Build instructions:
-  unpack kiwi-1.9.8-X-src.tar.bz2
+  unpack kiwi-1.9.11-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kiwi-1.9.8-X.cygport all
+  cygport ./kiwi-1.9.11-X.cygport all
 
 This will create:
-  /usr/src/kiwi-1.9.8-X-src.tar.bz2
-  /usr/src/kiwi-1.9.8-X.tar.bz2
+  /usr/src/kiwi-1.9.11-X-src.tar.bz2
+  /usr/src/kiwi-1.9.11-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-
-  /etc/kiwi/setup.py
   /usr/bin/kiwi-i18n
   /usr/bin/kiwi-ui-test
   /usr/lib/python2.4/site-packages/gazpacho/widgets/kiwiwidgets.py
@@ -66,6 +64,9 @@ Files included in the binary package:
   /usr/lib/python2.4/site-packages/kiwi/controllers.py
   /usr/lib/python2.4/site-packages/kiwi/controllers.pyc
   /usr/lib/python2.4/site-packages/kiwi/controllers.pyo
+  /usr/lib/python2.4/site-packages/kiwi/currency.py
+  /usr/lib/python2.4/site-packages/kiwi/currency.pyc
+  /usr/lib/python2.4/site-packages/kiwi/currency.pyo
   /usr/lib/python2.4/site-packages/kiwi/datatypes.py
   /usr/lib/python2.4/site-packages/kiwi/datatypes.pyc
   /usr/lib/python2.4/site-packages/kiwi/datatypes.pyo
@@ -78,6 +79,9 @@ Files included in the binary package:
   /usr/lib/python2.4/site-packages/kiwi/dist.py
   /usr/lib/python2.4/site-packages/kiwi/dist.pyc
   /usr/lib/python2.4/site-packages/kiwi/dist.pyo
+  /usr/lib/python2.4/site-packages/kiwi/enums.py
+  /usr/lib/python2.4/site-packages/kiwi/enums.pyc
+  /usr/lib/python2.4/site-packages/kiwi/enums.pyo
   /usr/lib/python2.4/site-packages/kiwi/environ.py
   /usr/lib/python2.4/site-packages/kiwi/environ.pyc
   /usr/lib/python2.4/site-packages/kiwi/environ.pyo
@@ -114,9 +118,6 @@ Files included in the binary package:
   /usr/lib/python2.4/site-packages/kiwi/ui/comboentry.py
   /usr/lib/python2.4/site-packages/kiwi/ui/comboentry.pyc
   /usr/lib/python2.4/site-packages/kiwi/ui/comboentry.pyo
-  /usr/lib/python2.4/site-packages/kiwi/ui/combomixin.py
-  /usr/lib/python2.4/site-packages/kiwi/ui/combomixin.pyc
-  /usr/lib/python2.4/site-packages/kiwi/ui/combomixin.pyo
   /usr/lib/python2.4/site-packages/kiwi/ui/dateentry.py
   /usr/lib/python2.4/site-packages/kiwi/ui/dateentry.pyc
   /usr/lib/python2.4/site-packages/kiwi/ui/dateentry.pyo
@@ -129,6 +130,9 @@ Files included in the binary package:
   /usr/lib/python2.4/site-packages/kiwi/ui/entry.py
   /usr/lib/python2.4/site-packages/kiwi/ui/entry.pyc
   /usr/lib/python2.4/site-packages/kiwi/ui/entry.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/entrycompletion.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/entrycompletion.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/entrycompletion.pyo
   /usr/lib/python2.4/site-packages/kiwi/ui/gadgets.py
   /usr/lib/python2.4/site-packages/kiwi/ui/gadgets.pyc
   /usr/lib/python2.4/site-packages/kiwi/ui/gadgets.pyo
@@ -162,15 +166,15 @@ Files included in the binary package:
   /usr/lib/python2.4/site-packages/kiwi/ui/test/common.py
   /usr/lib/python2.4/site-packages/kiwi/ui/test/common.pyc
   /usr/lib/python2.4/site-packages/kiwi/ui/test/common.pyo
-  /usr/lib/python2.4/site-packages/kiwi/ui/test/listener.py
-  /usr/lib/python2.4/site-packages/kiwi/ui/test/listener.pyc
-  /usr/lib/python2.4/site-packages/kiwi/ui/test/listener.pyo
   /usr/lib/python2.4/site-packages/kiwi/ui/test/main.py
   /usr/lib/python2.4/site-packages/kiwi/ui/test/main.pyc
   /usr/lib/python2.4/site-packages/kiwi/ui/test/main.pyo
   /usr/lib/python2.4/site-packages/kiwi/ui/test/player.py
   /usr/lib/python2.4/site-packages/kiwi/ui/test/player.pyc
   /usr/lib/python2.4/site-packages/kiwi/ui/test/player.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/recorder.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/recorder.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/test/recorder.pyo
   /usr/lib/python2.4/site-packages/kiwi/ui/tooltip.py
   /usr/lib/python2.4/site-packages/kiwi/ui/tooltip.pyc
   /usr/lib/python2.4/site-packages/kiwi/ui/tooltip.pyo
@@ -180,6 +184,9 @@ Files included in the binary package:
   /usr/lib/python2.4/site-packages/kiwi/ui/widgets/__init__.py
   /usr/lib/python2.4/site-packages/kiwi/ui/widgets/__init__.pyc
   /usr/lib/python2.4/site-packages/kiwi/ui/widgets/__init__.pyo
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/button.py
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/button.pyc
+  /usr/lib/python2.4/site-packages/kiwi/ui/widgets/button.pyo
   /usr/lib/python2.4/site-packages/kiwi/ui/widgets/checkbutton.py
   /usr/lib/python2.4/site-packages/kiwi/ui/widgets/checkbutton.pyc
   /usr/lib/python2.4/site-packages/kiwi/ui/widgets/checkbutton.pyo
@@ -222,14 +229,15 @@ Files included in the binary package:
   /usr/lib/python2.4/site-packages/kiwi/utils.py
   /usr/lib/python2.4/site-packages/kiwi/utils.pyc
   /usr/lib/python2.4/site-packages/kiwi/utils.pyo
-  /usr/share/doc/Cygwin/kiwi-1.9.8.README
-  /usr/share/doc/kiwi-1.9.8/AUTHORS
-  /usr/share/doc/kiwi-1.9.8/COPYING
-  /usr/share/doc/kiwi-1.9.8/ChangeLog
-  /usr/share/doc/kiwi-1.9.8/NEWS
-  /usr/share/doc/kiwi-1.9.8/README
+  /usr/share/doc/Cygwin/kiwi-1.9.11.README
+  /usr/share/doc/kiwi-1.9.11/AUTHORS
+  /usr/share/doc/kiwi-1.9.11/COPYING
+  /usr/share/doc/kiwi-1.9.11/ChangeLog
+  /usr/share/doc/kiwi-1.9.11/NEWS
+  /usr/share/doc/kiwi-1.9.11/README
   /usr/share/gazpacho/catalogs/kiwiwidgets.xml
   /usr/share/gazpacho/resources/kiwiwidgets/hyperlink.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwibutton.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwicheckbutton.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwicombobox.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwicomboboxentry.png
@@ -249,6 +257,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.9.11-1 -----
+Version bump.
 
 ----- version 1.9.8-1 -----
 Initial release for Cygwin.
