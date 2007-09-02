@@ -7,14 +7,14 @@ practical way to build forms, windows and widgets that transparently
 access and display your object data.
 
 Runtime requirements:
-  python-2.5.1-1
+  python-2.5.1-3
   python-gobject2-2.12.3-2
-  python-gtk2-2.10.4-2
+  python-gtk2-2.10.6-1
 
 Build requirements:
   cygwin-1.5.24-2
-  cygport-0.3.1-1
-  python-2.5.1-1
+  cygport-0.3.5-1
+  python-2.5.1-3
 
 Canonical homepage:
   http://www.async.com.br/projects/Kiwi/
@@ -25,15 +25,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-kiwi-1.9.16-X-src.tar.bz2
+  unpack python-kiwi-1.9.17-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-kiwi-1.9.16-X.cygport all
+  cygport ./python-kiwi-1.9.17-X.cygport all
 
 This will create:
-  /usr/src/python-kiwi-1.9.16-X-src.tar.bz2
-  /usr/src/python-kiwi-1.9.16-X.tar.bz2
+  /usr/src/python-kiwi-1.9.17-X-src.tar.bz2
+  /usr/src/python-kiwi-1.9.17-X.tar.bz2
 
 -------------------------------------------
 
@@ -44,7 +44,7 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.py
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.pyc
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.pyo
-  /usr/lib/python2.5/site-packages/kiwi-1.9.16-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/kiwi-1.9.17-py2.5.egg-info
   /usr/lib/python2.5/site-packages/kiwi/__init__.py
   /usr/lib/python2.5/site-packages/kiwi/__init__.pyc
   /usr/lib/python2.5/site-packages/kiwi/__init__.pyo
@@ -234,12 +234,12 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/kiwi/utils.py
   /usr/lib/python2.5/site-packages/kiwi/utils.pyc
   /usr/lib/python2.5/site-packages/kiwi/utils.pyo
-  /usr/share/doc/Cygwin/python-kiwi-1.9.16.README
-  /usr/share/doc/python-kiwi-1.9.16/AUTHORS
-  /usr/share/doc/python-kiwi-1.9.16/COPYING
-  /usr/share/doc/python-kiwi-1.9.16/ChangeLog
-  /usr/share/doc/python-kiwi-1.9.16/NEWS
-  /usr/share/doc/python-kiwi-1.9.16/README
+  /usr/share/doc/Cygwin/python-kiwi-1.9.17.README
+  /usr/share/doc/python-kiwi-1.9.17/AUTHORS
+  /usr/share/doc/python-kiwi-1.9.17/COPYING
+  /usr/share/doc/python-kiwi-1.9.17/ChangeLog
+  /usr/share/doc/python-kiwi-1.9.17/NEWS
+  /usr/share/doc/python-kiwi-1.9.17/README
   /usr/share/gazpacho/catalogs/kiwiwidgets.xml
   /usr/share/gazpacho/resources/kiwiwidgets/hyperlink.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwibutton.png
@@ -264,6 +264,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.9.17-1 -----
+Version bump.
 
 ----- version 1.9.16-1 -----
 Version bump.
