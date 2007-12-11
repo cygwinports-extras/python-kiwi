@@ -8,12 +8,12 @@ access and display your object data.
 
 Runtime requirements:
   python-2.5.1-3
-  python-gobject2-2.12.3-2
-  python-gtk2-2.10.6-1
+  python-gobject2-2.14.0-1
+  python-gtk2-2.12.0-1
 
 Build requirements:
   cygwin-1.5.24-2
-  cygport-0.3.5-1
+  cygport-0.3.7-1
   python-2.5.1-3
 
 Canonical homepage:
@@ -25,15 +25,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-kiwi-1.9.18-X-src.tar.bz2
+  unpack python-kiwi-1.9.19-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-kiwi-1.9.18-X.cygport all
+  cygport ./python-kiwi-1.9.19-X.cygport all
 
 This will create:
-  /usr/src/python-kiwi-1.9.18-X-src.tar.bz2
-  /usr/src/python-kiwi-1.9.18-X.tar.bz2
+  /usr/src/python-kiwi-1.9.19-X-src.tar.bz2
+  /usr/src/python-kiwi-1.9.19-X.tar.bz2
 
 -------------------------------------------
 
@@ -44,7 +44,7 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.py
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.pyc
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.pyo
-  /usr/lib/python2.5/site-packages/kiwi-1.9.18-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/kiwi-1.9.19-py2.5.egg-info
   /usr/lib/python2.5/site-packages/kiwi/__init__.py
   /usr/lib/python2.5/site-packages/kiwi/__init__.pyc
   /usr/lib/python2.5/site-packages/kiwi/__init__.pyo
@@ -72,6 +72,15 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/kiwi/datatypes.py
   /usr/lib/python2.5/site-packages/kiwi/datatypes.pyc
   /usr/lib/python2.5/site-packages/kiwi/datatypes.pyo
+  /usr/lib/python2.5/site-packages/kiwi/db/__init__.py
+  /usr/lib/python2.5/site-packages/kiwi/db/__init__.pyc
+  /usr/lib/python2.5/site-packages/kiwi/db/__init__.pyo
+  /usr/lib/python2.5/site-packages/kiwi/db/query.py
+  /usr/lib/python2.5/site-packages/kiwi/db/query.pyc
+  /usr/lib/python2.5/site-packages/kiwi/db/query.pyo
+  /usr/lib/python2.5/site-packages/kiwi/db/sqlobj.py
+  /usr/lib/python2.5/site-packages/kiwi/db/sqlobj.pyc
+  /usr/lib/python2.5/site-packages/kiwi/db/sqlobj.pyo
   /usr/lib/python2.5/site-packages/kiwi/decorators.py
   /usr/lib/python2.5/site-packages/kiwi/decorators.pyc
   /usr/lib/python2.5/site-packages/kiwi/decorators.pyo
@@ -138,6 +147,9 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/kiwi/ui/gadgets.py
   /usr/lib/python2.5/site-packages/kiwi/ui/gadgets.pyc
   /usr/lib/python2.5/site-packages/kiwi/ui/gadgets.pyo
+  /usr/lib/python2.5/site-packages/kiwi/ui/gaxmlloader.py
+  /usr/lib/python2.5/site-packages/kiwi/ui/gaxmlloader.pyc
+  /usr/lib/python2.5/site-packages/kiwi/ui/gaxmlloader.pyo
   /usr/lib/python2.5/site-packages/kiwi/ui/gazpacholoader.py
   /usr/lib/python2.5/site-packages/kiwi/ui/gazpacholoader.pyc
   /usr/lib/python2.5/site-packages/kiwi/ui/gazpacholoader.pyo
@@ -162,6 +174,9 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/kiwi/ui/proxywidget.py
   /usr/lib/python2.5/site-packages/kiwi/ui/proxywidget.pyc
   /usr/lib/python2.5/site-packages/kiwi/ui/proxywidget.pyo
+  /usr/lib/python2.5/site-packages/kiwi/ui/search.py
+  /usr/lib/python2.5/site-packages/kiwi/ui/search.pyc
+  /usr/lib/python2.5/site-packages/kiwi/ui/search.pyo
   /usr/lib/python2.5/site-packages/kiwi/ui/selectablebox.py
   /usr/lib/python2.5/site-packages/kiwi/ui/selectablebox.pyc
   /usr/lib/python2.5/site-packages/kiwi/ui/selectablebox.pyo
@@ -222,6 +237,9 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/kiwi/ui/widgets/radiobutton.py
   /usr/lib/python2.5/site-packages/kiwi/ui/widgets/radiobutton.pyc
   /usr/lib/python2.5/site-packages/kiwi/ui/widgets/radiobutton.pyo
+  /usr/lib/python2.5/site-packages/kiwi/ui/widgets/scale.py
+  /usr/lib/python2.5/site-packages/kiwi/ui/widgets/scale.pyc
+  /usr/lib/python2.5/site-packages/kiwi/ui/widgets/scale.pyo
   /usr/lib/python2.5/site-packages/kiwi/ui/widgets/spinbutton.py
   /usr/lib/python2.5/site-packages/kiwi/ui/widgets/spinbutton.pyc
   /usr/lib/python2.5/site-packages/kiwi/ui/widgets/spinbutton.pyo
@@ -234,12 +252,11 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/kiwi/utils.py
   /usr/lib/python2.5/site-packages/kiwi/utils.pyc
   /usr/lib/python2.5/site-packages/kiwi/utils.pyo
-  /usr/share/doc/Cygwin/python-kiwi-1.9.18.README
-  /usr/share/doc/python-kiwi-1.9.18/AUTHORS
-  /usr/share/doc/python-kiwi-1.9.18/COPYING
-  /usr/share/doc/python-kiwi-1.9.18/ChangeLog
-  /usr/share/doc/python-kiwi-1.9.18/NEWS
-  /usr/share/doc/python-kiwi-1.9.18/README
+  /usr/share/doc/python-kiwi-1.9.19/AUTHORS
+  /usr/share/doc/python-kiwi-1.9.19/COPYING
+  /usr/share/doc/python-kiwi-1.9.19/ChangeLog
+  /usr/share/doc/python-kiwi-1.9.19/NEWS
+  /usr/share/doc/python-kiwi-1.9.19/README
   /usr/share/gazpacho/catalogs/kiwiwidgets.xml
   /usr/share/gazpacho/resources/kiwiwidgets/hyperlink.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwibutton.png
@@ -249,11 +266,14 @@ Files included in the binary package:
   /usr/share/gazpacho/resources/kiwiwidgets/kiwicomboentry.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwidateentry.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwientry.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwihscale.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwilabel.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwiradiobutton.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwispinbutton.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwitextview.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwivscale.png
   /usr/share/gazpacho/resources/kiwiwidgets/objectlist.png
+  /usr/share/gazpacho/resources/kiwiwidgets/objecttree.png
   /usr/share/kiwi/glade/PluggableWizard.glade
   /usr/share/kiwi/pixmaps/validation-error-16.png
   /usr/share/locale/fr/LC_MESSAGES/kiwi.mo
@@ -264,6 +284,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.9.19-1 -----
+Version bump.
 
 ----- version 1.9.18-1 -----
 Version bump.
