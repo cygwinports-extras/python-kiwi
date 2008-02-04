@@ -8,11 +8,11 @@ access and display your object data.
 
 Runtime requirements:
   python-2.5.1-3
-  python-gobject2-2.14.0-1
-  python-gtk2-2.12.0-1
+  python-gobject2-2.14.1-1
+  python-gtk2-2.12.1-1
 
 Build requirements:
-  cygwin-1.5.24-2
+  cygwin-1.5.25-7
   cygport-0.3.7-1
   python-2.5.1-3
 
@@ -25,15 +25,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-kiwi-1.9.19-X-src.tar.bz2
+  unpack python-kiwi-1.9.20-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-kiwi-1.9.19-X.cygport all
+  cygport ./python-kiwi-1.9.20-X.cygport all
 
 This will create:
-  /usr/src/python-kiwi-1.9.19-X-src.tar.bz2
-  /usr/src/python-kiwi-1.9.19-X.tar.bz2
+  /usr/src/python-kiwi-1.9.20-X-src.tar.bz2
+  /usr/src/python-kiwi-1.9.20-X.tar.bz2
 
 -------------------------------------------
 
@@ -44,7 +44,7 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.py
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.pyc
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.pyo
-  /usr/lib/python2.5/site-packages/kiwi-1.9.19-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/kiwi-1.9.20-py2.5.egg-info
   /usr/lib/python2.5/site-packages/kiwi/__init__.py
   /usr/lib/python2.5/site-packages/kiwi/__init__.pyc
   /usr/lib/python2.5/site-packages/kiwi/__init__.pyo
@@ -252,11 +252,11 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/kiwi/utils.py
   /usr/lib/python2.5/site-packages/kiwi/utils.pyc
   /usr/lib/python2.5/site-packages/kiwi/utils.pyo
-  /usr/share/doc/python-kiwi-1.9.19/AUTHORS
-  /usr/share/doc/python-kiwi-1.9.19/COPYING
-  /usr/share/doc/python-kiwi-1.9.19/ChangeLog
-  /usr/share/doc/python-kiwi-1.9.19/NEWS
-  /usr/share/doc/python-kiwi-1.9.19/README
+  /usr/share/doc/python-kiwi-1.9.20/AUTHORS
+  /usr/share/doc/python-kiwi-1.9.20/COPYING
+  /usr/share/doc/python-kiwi-1.9.20/ChangeLog
+  /usr/share/doc/python-kiwi-1.9.20/NEWS
+  /usr/share/doc/python-kiwi-1.9.20/README
   /usr/share/gazpacho/catalogs/kiwiwidgets.xml
   /usr/share/gazpacho/resources/kiwiwidgets/hyperlink.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwibutton.png
@@ -277,6 +277,7 @@ Files included in the binary package:
   /usr/share/kiwi/glade/PluggableWizard.glade
   /usr/share/kiwi/pixmaps/validation-error-16.png
   /usr/share/locale/fr/LC_MESSAGES/kiwi.mo
+  /usr/share/locale/it/LC_MESSAGES/kiwi.mo
   /usr/share/locale/pl/LC_MESSAGES/kiwi.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/kiwi.mo
   /usr/share/locale/sv/LC_MESSAGES/kiwi.mo
@@ -284,6 +285,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.9.20-1 -----
+Version bump.
 
 ----- version 1.9.19-1 -----
 Version bump.
