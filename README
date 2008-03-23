@@ -13,7 +13,7 @@ Runtime requirements:
 
 Build requirements:
   cygwin-1.5.25-7
-  cygport-0.3.7-1
+  cygport-0.3.8-1
   python-2.5.1-3
 
 Canonical homepage:
@@ -25,15 +25,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-kiwi-1.9.20-X-src.tar.bz2
+  unpack python-kiwi-1.9.21-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-kiwi-1.9.20-X.cygport all
+  cygport ./python-kiwi-1.9.21-X.cygport all
 
 This will create:
-  /usr/src/python-kiwi-1.9.20-X-src.tar.bz2
-  /usr/src/python-kiwi-1.9.20-X.tar.bz2
+  /usr/src/python-kiwi-1.9.21-X-src.tar.bz2
+  /usr/src/python-kiwi-1.9.21-X.tar.bz2
 
 -------------------------------------------
 
@@ -44,7 +44,7 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.py
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.pyc
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.pyo
-  /usr/lib/python2.5/site-packages/kiwi-1.9.20-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/kiwi-1.9.21-py2.5.egg-info
   /usr/lib/python2.5/site-packages/kiwi/__init__.py
   /usr/lib/python2.5/site-packages/kiwi/__init__.pyc
   /usr/lib/python2.5/site-packages/kiwi/__init__.pyo
@@ -252,11 +252,11 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/kiwi/utils.py
   /usr/lib/python2.5/site-packages/kiwi/utils.pyc
   /usr/lib/python2.5/site-packages/kiwi/utils.pyo
-  /usr/share/doc/python-kiwi-1.9.20/AUTHORS
-  /usr/share/doc/python-kiwi-1.9.20/COPYING
-  /usr/share/doc/python-kiwi-1.9.20/ChangeLog
-  /usr/share/doc/python-kiwi-1.9.20/NEWS
-  /usr/share/doc/python-kiwi-1.9.20/README
+  /usr/share/doc/python-kiwi-1.9.21/AUTHORS
+  /usr/share/doc/python-kiwi-1.9.21/COPYING
+  /usr/share/doc/python-kiwi-1.9.21/ChangeLog
+  /usr/share/doc/python-kiwi-1.9.21/NEWS
+  /usr/share/doc/python-kiwi-1.9.21/README
   /usr/share/gazpacho/catalogs/kiwiwidgets.xml
   /usr/share/gazpacho/resources/kiwiwidgets/hyperlink.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwibutton.png
@@ -285,6 +285,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.9.21-1 -----
+Version bump.
 
 ----- version 1.9.20-1 -----
 Version bump.
