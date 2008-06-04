@@ -7,14 +7,13 @@ practical way to build forms, windows and widgets that transparently
 access and display your object data.
 
 Runtime requirements:
-  python-2.5.1-3
-  python-gobject2-2.14.1-1
+  python-2.5.2-1
+  python-gobject2-2.14.2-1
   python-gtk2-2.12.1-1
 
 Build requirements:
-  cygwin-1.5.25-7
-  cygport-0.3.8-1
-  python-2.5.1-3
+  cygport-0.3.11-1
+  python-2.5.2-1
 
 Canonical homepage:
   http://www.async.com.br/projects/Kiwi/
@@ -25,15 +24,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-kiwi-1.9.21-X-src.tar.bz2
+  unpack python-kiwi-1.9.22-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-kiwi-1.9.21-X.cygport all
+  cygport ./python-kiwi-1.9.22-X.cygport all
 
 This will create:
-  /usr/src/python-kiwi-1.9.21-X-src.tar.bz2
-  /usr/src/python-kiwi-1.9.21-X.tar.bz2
+  /usr/src/python-kiwi-1.9.22-X-src.tar.bz2
+  /usr/src/python-kiwi-1.9.22-X.tar.bz2
 
 -------------------------------------------
 
@@ -44,7 +43,7 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.py
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.pyc
   /usr/lib/python2.5/site-packages/gazpacho/widgets/kiwiwidgets.pyo
-  /usr/lib/python2.5/site-packages/kiwi-1.9.21-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/kiwi-1.9.22-py2.5.egg-info
   /usr/lib/python2.5/site-packages/kiwi/__init__.py
   /usr/lib/python2.5/site-packages/kiwi/__init__.pyc
   /usr/lib/python2.5/site-packages/kiwi/__init__.pyo
@@ -78,9 +77,15 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/kiwi/db/query.py
   /usr/lib/python2.5/site-packages/kiwi/db/query.pyc
   /usr/lib/python2.5/site-packages/kiwi/db/query.pyo
+  /usr/lib/python2.5/site-packages/kiwi/db/sqlalch.py
+  /usr/lib/python2.5/site-packages/kiwi/db/sqlalch.pyc
+  /usr/lib/python2.5/site-packages/kiwi/db/sqlalch.pyo
   /usr/lib/python2.5/site-packages/kiwi/db/sqlobj.py
   /usr/lib/python2.5/site-packages/kiwi/db/sqlobj.pyc
   /usr/lib/python2.5/site-packages/kiwi/db/sqlobj.pyo
+  /usr/lib/python2.5/site-packages/kiwi/db/stormintegration.py
+  /usr/lib/python2.5/site-packages/kiwi/db/stormintegration.pyc
+  /usr/lib/python2.5/site-packages/kiwi/db/stormintegration.pyo
   /usr/lib/python2.5/site-packages/kiwi/decorators.py
   /usr/lib/python2.5/site-packages/kiwi/decorators.pyc
   /usr/lib/python2.5/site-packages/kiwi/decorators.pyo
@@ -219,6 +224,9 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/kiwi/ui/widgets/combobox.py
   /usr/lib/python2.5/site-packages/kiwi/ui/widgets/combobox.pyc
   /usr/lib/python2.5/site-packages/kiwi/ui/widgets/combobox.pyo
+  /usr/lib/python2.5/site-packages/kiwi/ui/widgets/contextmenu.py
+  /usr/lib/python2.5/site-packages/kiwi/ui/widgets/contextmenu.pyc
+  /usr/lib/python2.5/site-packages/kiwi/ui/widgets/contextmenu.pyo
   /usr/lib/python2.5/site-packages/kiwi/ui/widgets/entry.py
   /usr/lib/python2.5/site-packages/kiwi/ui/widgets/entry.pyc
   /usr/lib/python2.5/site-packages/kiwi/ui/widgets/entry.pyo
@@ -252,15 +260,16 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/kiwi/utils.py
   /usr/lib/python2.5/site-packages/kiwi/utils.pyc
   /usr/lib/python2.5/site-packages/kiwi/utils.pyo
-  /usr/share/doc/python-kiwi-1.9.21/AUTHORS
-  /usr/share/doc/python-kiwi-1.9.21/COPYING
-  /usr/share/doc/python-kiwi-1.9.21/ChangeLog
-  /usr/share/doc/python-kiwi-1.9.21/NEWS
-  /usr/share/doc/python-kiwi-1.9.21/README
+  /usr/share/doc/python-kiwi-1.9.22/AUTHORS
+  /usr/share/doc/python-kiwi-1.9.22/COPYING
+  /usr/share/doc/python-kiwi-1.9.22/ChangeLog
+  /usr/share/doc/python-kiwi-1.9.22/NEWS
+  /usr/share/doc/python-kiwi-1.9.22/README
   /usr/share/gazpacho/catalogs/kiwiwidgets.xml
   /usr/share/gazpacho/resources/kiwiwidgets/hyperlink.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwibutton.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwicheckbutton.png
+  /usr/share/gazpacho/resources/kiwiwidgets/kiwicolorbutton.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwicombobox.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwicomboboxentry.png
   /usr/share/gazpacho/resources/kiwiwidgets/kiwicomboentry.png
@@ -276,6 +285,8 @@ Files included in the binary package:
   /usr/share/gazpacho/resources/kiwiwidgets/objecttree.png
   /usr/share/kiwi/glade/PluggableWizard.glade
   /usr/share/kiwi/pixmaps/validation-error-16.png
+  /usr/share/locale/es_CL/LC_MESSAGES/kiwi.mo
+  /usr/share/locale/es_ES/LC_MESSAGES/kiwi.mo
   /usr/share/locale/fr/LC_MESSAGES/kiwi.mo
   /usr/share/locale/it/LC_MESSAGES/kiwi.mo
   /usr/share/locale/pl/LC_MESSAGES/kiwi.mo
@@ -285,6 +296,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.9.22-1 -----
+Version bump.
 
 ----- version 1.9.21-1 -----
 Version bump.

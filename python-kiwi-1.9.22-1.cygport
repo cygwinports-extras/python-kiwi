@@ -1,0 +1,13 @@
+ORIG_PN=kiwi
+
+inherit distutils gnome.org
+
+DESCRIPTION="Python GUI framework"
+HOMEPAGE="http://www.async.com.br/projects/Kiwi/"
+
+src_install() {
+	cd ${B}
+	distutils_install
+
+	rm -fr ${D}/usr/share/doc/${ORIG_PN}
+}
